@@ -3,7 +3,7 @@ name: Release and deploy Todo
 on:
   push:
     branches:
-    - release/[A-Za-z0-9.]+
+    - "release/[A-Za-z0-9.]+"
 
 jobs:
   release-and-deploy:
